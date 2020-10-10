@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/ernest-karchmit-ZcDjyPNLQ8w-unsplash.jpg");
+    font-family: 'Poppins', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(223, 220, 217);
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%
+}
+.nav-links a{
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-links a:hover{
+    color:  aqua;
+    transition: 0.3s;
+}
+.flip-card {
+background-color: transparent;
+width: 200px;
+height: 300px;
+perspective: 1000px;
+border-radius: 5px; /* 5px rounded corners */
+border-radius: 5px 5px 0 0;
+}
+
+.flip-card-inner {
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.6s;
+transform-style: preserve-3d;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+border-radius: 5px 5px 0 0;
+}
+
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+border-radius: 5px 5px 0 0;
+}
+
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+border-radius: 5px; /* 5px rounded corners */
+border-radius: 5px 5px 0 0;
+}
+
+.flip-card-front {
+background-color: #bbb;
+color: black;
+border-radius: 5px; /* 5px rounded corners */
+border-radius: 5px 5px 0 0;
+}
+
+.flip-card-back {
+background-color: #2980b9;
+color: white;
+transform: rotateY(180deg);
+border-radius: 5px; /* 5px rounded corners */
+}
+.flip-card-back h1{
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.flip-card-back p{
+    margin-top: 10px;
+    align-items: center;
+}
+.flip-card-front img{
+    border-radius: 5px 5px 0 0;
+}
+.flip-card{
+    margin-top: 350px;
+    margin-left: 50px;
+    justify-content: space-around;
+}
+.flip-card2 {
+    background-color: transparent;
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 5px; /* 5px rounded corners */
+    border-radius: 5px 5px 0 0;
+    }
+    
+    .flip-card-inner2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px 5px 0 0;
+    }
+    
+    .flip-card2:hover .flip-card-inner2 {
+    transform: rotateY(180deg);
+    border-radius: 5px 5px 0 0;
+    }
+    
+    .flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 5px; /* 5px rounded corners */
+    border-radius: 5px 5px 0 0;
+    }
+    
+    .flip-card-front2 {
+    background-color: #bbb;
+    color: black;
+    border-radius: 5px; /* 5px rounded corners */
+    border-radius: 5px 5px 0 0;
+    }
+    
+    .flip-card-back2 {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 5px; /* 5px rounded corners */
+    }
+.flip-card2{
+    margin-top: 350px;
+    justify-content: space-evenly;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.cont a{
+    color: rgb(0, 0, 0);
+}
+.cont a:hover{
+    color: rgb(255, 255, 255);
+}
+.cont a:visited{
+    color: rgb(255, 255, 255);
+}
+.back h2{
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: 100px;
+    height: 35px; 
+    line-height: 35px;
+}
+.back h3{
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: 10px;
+    height: 35px; 
+    line-height: 35px;
+}
+.back{
+    margin: 0 auto;
+    height: 35px; 
+    line-height: 35px;
+}
